@@ -26,31 +26,31 @@ isBoardFull: Checks if the board is full to detect a draw.
 ## Example Gameplay
 
 ```plaintext
------------
-&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
------------
-&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
------------
-&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
------------
+-----------------------------------
+         |           |                
+-----------------------------------
+         |           |                
+-----------------------------------
+         |           |               
+-----------------------------------
 
 Player X, enter your move (row and column): 0 0
 
------------
-X | &nbsp; &nbsp; | &nbsp; &nbsp;  
------------
-&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
------------
-&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
------------
+------------------------------------
+    X    |           |               
+------------------------------------
+         |           |               
+------------------------------------
+         |           |             
+------------------------------------
 
 Player O, enter your move (row and column): 1 1
 
------------
-X | &nbsp; &nbsp; | &nbsp; &nbsp;  
------------
-&nbsp; &nbsp; | O | &nbsp; &nbsp;  
------------
-&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
------------
+------------------------------------
+    X    |           |             
+------------------------------------
+         |     O     |                
+------------------------------------
+         |           |              
+------------------------------------
 continues until there's a winner or the game ends in a draw.
