@@ -21,3 +21,35 @@ Main Functions:
 printBoard: Displays the board’s current state.
 haveWon: Determines if the current player has won by matching rows, columns, or diagonals.
 isBoardFull: Checks if the board is full to detect a draw.
+
+<h1>🎮 Example Game Play</h1>
+plaintext
+Copy code
+-----------
+  |   |  
+-----------
+  |   |  
+-----------
+  |   |  
+-----------
+
+Player X, enter your move (row and column): 0 0
+
+-----------
+X |   |  
+-----------
+  |   |  
+-----------
+  |   |  
+-----------
+
+Player O, enter your move (row and column): 1 1
+
+-----------
+X |   |  
+-----------
+  | O |  
+-----------
+  |   |  
+-----------
+This cycle continues until there's a winner or the game ends in a draw.
