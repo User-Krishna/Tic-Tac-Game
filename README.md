@@ -23,33 +23,34 @@ haveWon: Determines if the current player has won by matching rows, columns, or 
 isBoardFull: Checks if the board is full to detect a draw.
 
 <h1>🎮 Example Game Play</h1>
-plaintext
-Copy code
+## Example Gameplay
+
+```plaintext
 -----------
- |       |  
+&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
 -----------
- |       |  
+&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
 -----------
- |       |  
+&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
 -----------
 
 Player X, enter your move (row and column): 0 0
 
 -----------
-X |      |  
+X | &nbsp; &nbsp; | &nbsp; &nbsp;  
 -----------
-  |      |  
+&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
 -----------
-  |      |  
+&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
 -----------
 
 Player O, enter your move (row and column): 1 1
 
 -----------
-X |      |  
+X | &nbsp; &nbsp; | &nbsp; &nbsp;  
 -----------
- | O      |  
+&nbsp; &nbsp; | O | &nbsp; &nbsp;  
 -----------
- |        |  
+&nbsp; &nbsp; | &nbsp; &nbsp; | &nbsp; &nbsp;  
 -----------
-This cycle continues until there's a winner or the game ends in a draw.
+continues until there's a winner or the game ends in a draw.
