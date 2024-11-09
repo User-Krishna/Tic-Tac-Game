@@ -1,4 +1,3 @@
-# Tic-Tac-Game
 <h1>🎲 Tic Tac Toe Game in Java</h1>
 This project brings the classic Tic Tac Toe game to the console, implemented in Java. Designed for two players, it offers a fun way to enjoy the game while exploring Java basics.
 
